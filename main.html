@@ -1,0 +1,528 @@
+ <!DOCTYPE html>
+<html > 
+    <head>
+       
+        <style>
+            
+            
+            #navv{
+                background-color:black;
+                width: 100%;
+                align-items: center;
+                padding-left: 10px;
+                margin-top: 0px;
+                opacity: 0.8;
+                
+            
+                
+                
+            } 
+            section1{
+                position: fixed;
+            }
+            .but{
+                background-color:black;
+                color:rgb(9, 9, 245);
+                font-size:15px;
+                border: rgb(240, 244, 243);
+                height: 30px;
+                padding-left: 10px;
+                text-decoration: none; 
+                behavior:unset;
+                align-content: center;
+                width: 70px;
+            
+            }
+            #bod{
+                background-color: rgba(9, 20, 223, 0.685);
+                width: 1257px;
+                color:whitesmoke;
+                font-size: 17px;
+        
+                
+            
+            }
+            #all{
+                background-size:cover;
+            }
+            .icon{
+                height: 25px;
+                width: 25px;
+                margin: 3px;
+                margin-right: 10px;
+                float: right;
+            }
+            
+           #input{
+            float: right;
+            margin-right: 30px;
+            margin-top: 5px;
+            border-radius: 10px;
+           }
+           #search{
+            background-color: rgb(33, 154, 181);
+            float: right;
+            margin: 3px;
+            margin-top: 7px;
+            margin-right: 5px;
+            border-radius: 10px;
+            padding: 0px 5px 0px 5px;
+            
+           }
+           a{
+            text-decoration: none;
+            
+            
+           }
+           li{
+            margin: 5px;
+           }
+           #left{
+               width: fit-content;
+               height: 50px;
+            
+
+            
+           }
+           #pr{
+            font-size:large;
+            color: brown;
+           }
+            #right{
+                padding-left: 75px;
+              
+                
+                
+            }
+           td div img:hover{
+                opacity: 0.5;
+            }
+            
+            #logo{
+                background-color: rgb(243, 16, 8);
+                height: 30px;
+                width: 30px;
+            }
+            .ani{
+                height:100px ;
+                width:100px;
+                
+                margin-left: 50px;
+                border-style:groove;
+                 border-radius:100px;
+                 animation-name: examp;
+                 animation-duration: 5s;
+                 animation-iteration-count:1 ;
+                 animation-delay: 3s;
+                 position: relative;
+               
+                
+            }
+            .ani1{
+                height:100px ;
+                width:100px;
+                
+                margin-left: 100px;
+                border-style:groove;
+                 border-radius:100px;
+                 animation-name: examp;
+                 animation-duration: 5s;
+                 animation-iteration-count:1 ;
+                 animation-delay: 8s;
+                 position: relative;
+               
+                
+            }
+            .ani2{
+                height:100px ;
+                width:100px;
+                
+                margin-left: 100px;
+                border-style:groove;
+                 border-radius:100px;
+                 animation-name: examp;
+                 animation-duration: 5s;
+                 animation-iteration-count:1;
+                 animation-delay: 13s;
+                 position: relative;
+               
+                
+            }
+            .ani3{
+                height:100px ;
+                width:100px;
+                
+                margin-left: 100px;
+                border-style:groove;
+                 border-radius:100px;
+                 animation-name: examp;
+                 animation-duration: 5s;
+                 animation-iteration-count:1;
+                 animation-delay: 18s;
+                 position: relative;
+               
+                
+            }
+             .ani4{
+                height:100px ;
+                width:100px;
+                
+                margin-left: 100px;
+                border-style:groove;
+                 border-radius:100px;
+                 animation-name: examp;
+                 animation-duration: 5s;
+                 animation-iteration-count:1 ;
+                 animation-delay: 23s;
+                 position: relative;
+               
+                
+            }
+            @keyframes examp{
+                10%{width: 50px;height: 50px;}
+                15%{width: 55px;height: 55px;transform: rotate(20deg);}
+                20%{width: 57px;height: 57px;transform: rotate(40deg);}
+                25%{width: 60px;height: 60px;transform: rotate(60deg);}
+                30%{width: 63px;height: 63px;transform: rotate(80deg);}
+                35%{width: 65px;height: 65px;transform: rotate(100deg);}
+                40%{width: 67px;height: 67px;transform: rotate(120deg );}
+                45%{width: 70px;height: 70px;transform: rotate(140deg);}
+                50%{width: 72px;height: 72px;transform: rotate(160deg );}
+                55%{width: 75px;height: 75px;transform: rotate(180deg);}
+                60%{width: 78px;height: 78px;transform: rotate(200deg );}
+                65%{width: 80px;height: 80px;transform: rotate(220deg);}
+                70%{width: 82px;height: 82px;transform: rotate(240deg );}
+                75%{width: 85px;height: 85px;transform: rotate(260deg);}
+                80%{width: 87px;height: 87px;transform: rotate(290deg );}
+                85%{width: 90px;height: 90px;transform: rotate(310deg);}
+                90%{width: 95px;height: 95px;transform: rotate(330deg);}
+                100%{width: 100px;height: 100px;transform: rotate(360deg );}
+            }**/
+         
+    
+        </style>
+       
+       
+        <script>
+           
+        </script>
+    </head >
+    <body   id="all" class="container-fluid" background="KON (35) ‫‬.JPG" >
+        
+        <section1 style="background-color:black ;" >
+           
+            <nav id="navv">
+                <button id="logo">N</button>
+                <button id="logo">A</button>
+                <button id="logo">S</button>
+              
+                
+               <a href="web1.html"><button  class="but" id="dem" onmouseover="mosOn()" onmouseout="mosOut()"  >Home</button></a>
+               <a href="#foot"> <button class="but" id="dem1" onmouseover="mosOn1()" onmouseout="mosOut1()"style="width:100px">contact us</button></a>
+                <a href="login.html"target="_blank"><button class="but"id="dem2" onmouseover="mosOn2()" onmouseout="mosOut2()" >login</button></a>
+                <a href=""><button class="but" id="dem3" onmouseover="mosOn3()" onmouseout="mosOut3()">help</button></a>
+                
+               
+                 <input  id="input" type="text" placeholder="  search of" onkeyup="search()"
+                 >
+                <label id="search">search</label>
+                
+               
+                
+            </nav>
+               
+        
+        
+        <section id="bod">
+            <Marquee   behavior="" Dirction="">Here you will found some of informations about programming :languages,paths and frame work</marquee>
+        </section>
+        <div style="height:150px; border-style: none;padding-top: 0px;">
+            <ul style="display:inline-flex;list-style: none;margin-left: 0px;">
+                <li><img src="NASy.png" alt="Website Logo" width="160" height="125" style="margin-bottom: 20px;"></li>
+                <li><img src="backend-is.png" class="ani"></li>
+                <li><img src="front.png" class="ani1" ></li>
+                <li><img src="front1.jpg" class="ani2"></li>
+                <li><img src="what’s-the-best-programming-language-to-learn-first.png" class="ani3"></li>
+                <li><img src="what-computer-programming-jobs-offer-remote-work-jpg.jpeg" class="ani4"></li>
+            </ul>
+        </div>
+        </section1>
+        
+<section  >
+       <section> 
+        
+   
+    
+        
+        <table style="padding-top:175px;">
+            <tr>
+            <td  id="left">
+                <ul id="pr">
+                    programing languages
+                    <li><a href="https://JavaScript.com/" target="_blank">JS</a></li>
+                    <li><a href="https://python.org/ " target="_blank">Python</a></li>
+                    <li><a href="https://www.codecademy.com/learn/learn-c-sharp" target="_blank">C#</a></li>
+                    <li><a href="https://php.org/" target="_blank">PHP</a></li>
+                    <li><a href="https://java.com/" target="_blank">Java</a></li>
+                    <li><a href="https://www.w3schools.com/sql/" target="_blank">Sql</a></li>
+                </ul>
+                <ul id="pr">
+                    websites
+                    <li><a href="https://w3schools.com" target="_blank">W3school</a></li>
+                    <li><a href="https://Github.com" target="_blank">Github</a></li>
+                    <li><a href="https://linkedin.com"target="_blank">linkedin</a></li>
+
+                </ul>
+
+            </td>
+
+            
+               
+             <td id="right"style="padding-top:30px;">
+                
+                   <h1 style="color:blue ;"><li>web designe</li></h1>
+                   <h3  style="padding-left:30px;color: green;"> 1- Front-end: <h3>
+                
+                   <p style="padding-left: 40px;font-size:small;">HTML</p>
+                   <div style="height: 200px;width:150px;margin-left: 40px;border-radius: 20px 20px 20px 20px;border-style: groove;background-color: black;box-shadow: 10px 10px blue;"><a href="https://www.w3schools.com/html/default.asp" target="_blank">
+                    <img src="icons8-html-5-480.png" height="100px" width="150px" >
+                  <p style="font-size:13px ;color: chartreuse;padding-left: 5px;">HTML is the language in which most websites are written. HTML is used to create pages and make them functional.</p>
+                  </a>
+                  </div>
+               
+            
+            
+            
+             </td>
+             
+             <td id="right" style="padding-top:30px;">
+                
+                
+                <p style="padding-left: 0px;font-size:small;padding-top: 75px;">CSS</p>
+           <div style="height: 200px;width:150px;margin-left: 0px;border-radius: 20px 20px 20px 20px;border-style: groove;background-color: black;box-shadow: 10px 10px green;"><a href="https://www.w3schools.com/css/default.asp" target="_blank">
+                <img src="icons8-css3-480.png" height="100px" width="150px" >
+                <p style="font-size:15px ;color: chartreuse;padding-left: 5px;">CSS (Cascading Style Sheets) is used to style and layout web pages</p>
+                </a>
+            </div>
+            
+            
+                
+                   
+            </td>
+             
+            <td id="right" style="padding-top:30px;">
+                
+                
+                <p style="padding-left: 0px;font-size:small;padding-top: 75px;">Js</p>
+           <div style="height: 200px;width:150px;margin-left: 0px;border-radius: 20px 20px 20px 20px;border-style: groove;background-color: black;box-shadow: 10px 10px red;"><a href="https://www.w3schools.com/js/default.asp" target="_blank">
+                <img src="icons8-javascript-480.png" height="100px" width="150px" >
+                <p style="font-size:11px ;color: chartreuse;padding-left: 5px;">JavaScript, or often called JS for short, is a high-level programming language that is mainly used in web browsers to create more interactive pages.</p>
+                </a>
+            </div>
+            </td>
+             
+            
+                <td>
+                   <a href="_blank"> <img src="direction_forward_right_arrow_ecommerce_icon_224963.png" alt="more" style="height:50px;width:50px;padding-top:100px;padding-left:50px"></a>
+                </td>
+                <td style="width: 150px;">
+                    
+                </td>
+             </tr>
+        </table>
+        <table >
+            <td>
+               <ul id="pr"> Frame work
+                <li><a href="https://dotnet.microsoft.com/en-us/apps/aspnet" target="_blank">ASP.NET</a></li>
+                <li><a href="https://dotnet.microsoft.com/en-us/apps/aspnet/mvc" target="_blank">ASP.NET Mvc</a></li>
+                <li><a href="https://learn.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-7.0" target="_blank">ASP.NET Core</a></li>
+                <li><a href="https://angular.io/" target="_blank">Angular.js</a></li>
+                <li><a href="https://laravel.com/" target="_blank">Laravel</a></li>
+               </ul>
+               <ul id="pr">Applications
+                <li> <a href="https://visualstudio.microsoft.com/" target="_blank">visual studio</a></li>
+                <li><a href="https://code.visualstudio.com/" target="_blank">vcode</a></li>
+                <li><a href="https://netbeans.apache.org/" target="_blank">netbeens</a></li>
+                <li><a href="https://developer.android.com/" target="_blank">android studio</a></li>
+               </ul>
+                
+            </td>
+            <td id="right" style="padding-left:130px ;">
+                
+                <h3 style="padding-left:25px;color: green;">2- Back-end:<h3>
+                
+                    <p style="padding-left: 35px;font-size:small;">python</p>
+                    <div style="height: 200px;width:150px;margin-left: 40px;border-radius: 20px 20px 20px 20px;border-style: groove;background-color: black;box-shadow: 10px 10px blue;" ><a href="https://www.w3schools.com/python/default.asp" target="_blank">
+                     <img src="icons8-python-96.png" height="100px" width="150px" >
+                   <p style="font-size:11px ;color: chartreuse;padding-left: 5px;">Python is a high-level, easy-to-learn, open-source, extensible programming language that adopts the object-oriented programming style.</p>
+                   </a>
+                   </div>
+            </td>
+            <td id="right">
+                
+                
+                <p style="padding-left: 0px;font-size:small;padding-top: 30px;">C#</p>
+           <div style="height: 200px;width:150px;margin-left: 0px;border-radius: 20px 20px 20px 20px;border-style: groove;background-color: black;box-shadow: 10px 10px green;"><a href="https://www.codecademy.com/learn/learn-c-sharp" target="_blank">
+                <img src="icons8-c-sharp-logo-2-480.png" height="100px" width="150px" >
+                <p style="font-size:11px ;color: chartreuse;padding-left: 5px;">It is a multi-paradigm programming language that has profiling, imperative, functional, and functionality as object-oriented or object-oriented programming.</p>
+                </a>
+            </div>
+            
+            
+                
+                   
+            </td>
+            <td id="right">
+                
+                
+                <p style="padding-left: 0px;font-size:small;padding-top: 30px;">php</p>
+              <div style="height: 200px;width:150px;margin-left: 0px;border-radius: 20px 20px 20px 20px;border-style: groove;background-color: black;box-shadow: 10px 10px red;"><a href="https://www.w3schools.com/php/default.asp" target="_blank">
+                <img src="icons8-php-logo-480.png" height="100px" width="150px" >
+                <p style="font-size:15px ;color: chartreuse;padding-left: 5px;">PHP is a general-purpose scripting language geared toward web development</p>
+                </a>
+            </div>
+            </td>
+            <td>
+                <a href="_blank"> <img src="direction_forward_right_arrow_ecommerce_icon_224963.png" alt="more" style="height:50px;width:50px;padding-top:0px;padding-left:50px"></a>
+             </td>
+             
+        </table>
+        <table style="padding-left: 250px;">
+            <td>
+                
+                <h3 style="padding-left:30px;color: blue;"><li>Windows app</li><h3>
+                
+                    <p style="padding-left: 90px;font-size:small;">C#</p>
+                    <div style="height: 200px;width:150px;margin-left: 90px;border-radius: 20px 20px 20px 20px;border-style: groove;background-color: black;box-shadow: 10px 10px blue;"><a href="https://www.codecademy.com/learn/learn-c-sharp" target="_blank">
+                     <img src="icons8-c-sharp-logo-2-480.png" height="100px" width="150px" >
+                   <p style="font-size:11px ;color: chartreuse;padding-left: 5px;">It is a multi-paradigm programming language that has profiling, imperative, functional, and functionality as object-oriented or object-oriented programming</p>
+                   </a>
+                   </div>
+            </td>
+            <td id="right">
+                
+                
+                <p style="padding-left: 0px;font-size:small;padding-top: 30px;">java</p>
+           <div style="height: 200px;width:150px;margin-left: 0px;border-radius: 20px 20px 20px 20px;border-style: groove;background-color: black;box-shadow: 10px 10px green;"><a href="https://www.w3schools.com/java/default.asp" target="_blank">
+                <img src="icons8-java-480.png" height="100px" width="150px" >
+                <p style="font-size:10px ;color: chartreuse;padding-left: 5px;">Java is an object-oriented programming language, invented by James Gosling in 1992 AD while working in the laboratories of Sun Microsystems, in order to use it as the thinking brain used to run smart application devices.</p>
+                </a>
+            </div>
+            
+            
+                
+                   
+            </td>
+            <td id="right">
+                
+                
+                <p style="padding-left: 0px;font-size:small;padding-top: 30px;">C++</p>
+              <div style="height: 200px;width:150px;margin-left: 0px;border-radius: 20px 20px 20px 20px;border-style: groove;background-color: black;box-shadow: 10px 10px red;"><a href="https://www.w3schools.com/c/index.asp" target="_blank">
+                <img src="icons8-copyright-64.png" height="100px" width="150px" >
+                <p style="font-size:11px ;color: chartreuse;padding-left: 5px;">C++ is an object-oriented, multi-paradigm, compiled, static programming language. It includes many features of high-level and low-level programming languages.</p>
+                </a>
+            </div>
+            </td>
+            <td>
+                <a href="_blank"> <img src="direction_forward_right_arrow_ecommerce_icon_224963.png" alt="more" style="height:50px;width:50px;padding-top:0px;padding-left:50px"></a>
+             </td>
+           
+        </table>
+         
+       </section>
+       <section id="foot">
+       <a  href=""> <img src="meta_fb_communication_social_media_katana_facebook_icon_228415.png" style="height: 30;width: 30px;padding-left: 575px;padding-top: 50px;"></a>
+           <a href=""><img src="talk_message_chat_communication_social_media_telegram_icon_228417.png" style="height: 30;width: 30px;padding-left: 10px;"></a>
+           <a href=""> <img src="communication_social_media_twitter_icon_228391.png" style="height: 30;width: 30px;padding-left: 10px;"></a>
+           <a href=""> <img src="communication_media_social_whatups_icon_228382.png" style="height: 30;width: 30px;padding-left: 10px;"></a>
+        
+       <footer style="color:rgb(213, 12, 12) ; padding-left:600px  ;height: 115px;padding-top: 7px;">
+        <p>@N.A.S.com 2022</p>
+        
+
+     </footer >
+       </section>
+</section>
+       <script>
+        function lis() {
+            document.getElementById("demo").onclick.style.color="red";
+ 
+        }
+       // document.getElementById("demo").onmouseover=lis();
+       function mosOn(){
+          // document.getElementById("dem").style.color="red";
+          // document.getElementById("dem").style.fontSize="large";
+          // document.getElementById("dem").style.backgroundColor="green";
+          document.getElementById("dem").style.borderLeftStyle="groove"
+          document.getElementById("dem").style.borderRightStyle="groove"
+          document.getElementById("dem").style.borderRadius="10px 10px 10px 10px"
+          document.getElementById("dem").style.backgroundColor="gray"
+           
+
+        }
+        function mosOn1(){
+          // document.getElementById("dem1").style.color="red";
+          // document.getElementById("dem1").style.fontSize="large";
+           document.getElementById("dem1").style.borderLeftStyle="groove"
+          document.getElementById("dem1").style.borderRightStyle="groove"
+          document.getElementById("dem1").style.borderRadius="10px 10px 10px 10px"
+          document.getElementById("dem1").style.backgroundColor="gray"
+           
+           }
+        function mosOn2(){
+           //document.getElementById("dem2").style.color="red";
+          // document.getElementById("dem2").style.fontSize="large";
+           document.getElementById("dem2").style.borderLeftStyle="groove"
+          document.getElementById("dem2").style.borderRightStyle="groove"
+          document.getElementById("dem2").style.borderRadius="10px 10px 10px 10px"
+          document.getElementById("dem2").style.backgroundColor="gray"
+           
+            }
+        function mosOn3(){
+
+           //document.getElementById("dem3").style.color="red";
+          // document.getElementById("dem3").style.fontSize="large";
+           document.getElementById("dem3").style.borderLeftStyle="groove"
+          document.getElementById("dem3").style.borderRightStyle="groove"
+          document.getElementById("dem3").style.borderRadius="10px 10px 10px 10px"
+          document.getElementById("dem3").style.backgroundColor="gray"
+           
+             }
+        function mosOut(){
+            document.getElementById("dem").style.color="blue";
+            document.getElementById("dem").style.fontSize="16px";
+            //document.getElementById("dem").style.backgroundColor="black";
+            document.getElementById("dem").style.borderStyle="none"
+          document.getElementById("dem").style.borderRadius="0px 0px 0px 0px"
+          document.getElementById("dem").style.backgroundColor="black"
+
+
+        }
+        function mosOut1(){
+            document.getElementById("dem1").style.color="blue";
+            document.getElementById("dem1").style.fontSize="15px";
+            document.getElementById("dem1").style.borderStyle="none"
+          document.getElementById("dem1").style.borderRadius="0px 0px 0px 0px"
+          document.getElementById("dem1").style.backgroundColor="black"
+
+        }
+        function mosOut2(){
+            document.getElementById("dem2").style.color="blue";
+            document.getElementById("dem2").style.fontSize="15px";
+            document.getElementById("dem2").style.borderStyle="none"
+          document.getElementById("dem2").style.borderRadius="0px 0px 0px 0px"
+          document.getElementById("dem2").style.backgroundColor="black"
+
+        }
+        function mosOut3(){
+            document.getElementById("dem3").style.color="blue";
+            document.getElementById("dem3").style.fontSize="15px";
+            document.getElementById("dem3").style.borderStyle="none"
+          document.getElementById("dem3").style.borderRadius="0px 0px 0px 0px"
+          document.getElementById("dem3").style.backgroundColor="black"
+
+        }
+        
+       </script>
+    </body>
+</html>

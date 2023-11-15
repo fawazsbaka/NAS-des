@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>login</title>
+        <link rel="stylesheet" type="text/css" href="StyleSheet1.css"/>
+        <style>
+             #navv{
+                background-color:black;
+                width: 100%;
+                align-items: center;
+                direction: ltr;
+                padding-left: 10px;
+                margin-left: 5px;
+                
+                
+            }
+            .but{
+                background-color:black;
+                color:rgb(9, 9, 245);
+                font-size:15px;
+                border: white;
+                height: 30px;
+                padding-left: 10px;
+                text-decoration: none;
+                align-content: center;
+                width: 70px;
+            
+            }
+            #logo{
+                background-color: rgb(243, 16, 8);
+                height: 30px;
+                width: 30px;
+            }
+            #bod{
+                 background-color: rgba(28, 17, 233, 0.685);
+                width: 100%;
+                color: whitesmoke;
+                font-size: 17px;
+
+            }
+            #log{
+                height: 60px;
+                width: 50px;
+            }
+            .icon{
+                height: 25px;
+                width: 25px;
+                margin: 3px;
+                margin-right: 10px;
+                float: right;
+            }
+            
+           #input{
+            float: right;
+            margin-right: 30px;
+            margin-top: 5px;
+            border-radius: 10px;
+            
+           }
+           #search{
+            background-color: rgb(33, 154, 181);
+            float: right;
+            margin: 3px;
+            margin-top: 6px;
+            margin-right: 5px;
+            border-radius: 10px;
+            padding: 0px 5px 0px 5px;
+            
+           }
+           body{
+                animation-name: example;
+                animation-duration: 25s;
+                animation-iteration-count: infinite;
+            }
+          @keyframes example{
+            0%   {background-color: rgb(243, 243, 242);}
+             15%  {background-color: rgb(82, 148, 134);}
+             25%  {background-color: rgb(70, 235, 15);}
+             50%  {background-color: rgb(87, 82, 149);}
+             75% {background-color: rgb(173, 41, 56);}
+             100%  {background-color: rgba(236, 235, 230, 0.164);}
+          }
+          .ani{
+                height:100px ;
+                width:100px;
+                
+                margin-left: 50px;
+                border-style:groove;
+                 border-radius:100px;
+                 animation-name: examp;
+                 animation-duration: 5s;
+                 animation-iteration-count:1 ;
+                 animation-delay: 3s;
+                 position: relative;
+               
+                
+            }
+            .ani1{
+                height:100px ;
+                width:100px;
+                
+                margin-left: 100px;
+                border-style:groove;
+                 border-radius:100px;
+                 animation-name: examp;
+                 animation-duration: 5s;
+                 animation-iteration-count:1 ;
+                 animation-delay: 8s;
+                 position: relative;
+               
+                
+            }
+            .ani2{
+                height:100px ;
+                width:100px;
+                
+                margin-left: 100px;
+                border-style:groove;
+                 border-radius:100px;
+                 animation-name: examp;
+                 animation-duration: 5s;
+                 animation-iteration-count:1;
+                 animation-delay: 13s;
+                 position: relative;
+               
+                
+            }
+            .ani3{
+                height:100px ;
+                width:100px;
+                
+                margin-left: 100px;
+                border-style:groove;
+                 border-radius:100px;
+                 animation-name: examp;
+                 animation-duration: 5s;
+                 animation-iteration-count:1;
+                 animation-delay: 18s;
+                 position: relative;
+               
+                
+            }
+             .ani4{
+                height:100px ;
+                width:100px;
+                
+                margin-left: 100px;
+                border-style:groove;
+                 border-radius:100px;
+                 animation-name: examp;
+                 animation-duration: 5s;
+                 animation-iteration-count:1 ;
+                 animation-delay: 23s;
+                 position: relative;
+               
+                
+            }
+            @keyframes examp{
+                10%{width: 50px;height: 50px;}
+                15%{width: 55px;height: 55px;transform: rotate(20deg);}
+                20%{width: 57px;height: 57px;transform: rotate(40deg);}
+                25%{width: 60px;height: 60px;transform: rotate(60deg);}
+                30%{width: 63px;height: 63px;transform: rotate(80deg);}
+                35%{width: 65px;height: 65px;transform: rotate(100deg);}
+                40%{width: 67px;height: 67px;transform: rotate(120deg );}
+                45%{width: 70px;height: 70px;transform: rotate(140deg);}
+                50%{width: 72px;height: 72px;transform: rotate(160deg );}
+                55%{width: 75px;height: 75px;transform: rotate(180deg);}
+                60%{width: 78px;height: 78px;transform: rotate(200deg );}
+                65%{width: 80px;height: 80px;transform: rotate(220deg);}
+                70%{width: 82px;height: 82px;transform: rotate(240deg );}
+                75%{width: 85px;height: 85px;transform: rotate(260deg);}
+                80%{width: 87px;height: 87px;transform: rotate(290deg );}
+                85%{width: 90px;height: 90px;transform: rotate(310deg);}
+                90%{width: 95px;height: 95px;transform: rotate(330deg);}
+                100%{width: 100px;height: 100px;transform: rotate(360deg );}
+            }**/
+         
+    
+        </style>
+</head>
+<body  dir="ltr">
+    <section1 style="position: ;width:100%;margin-top: 0px;" >
+        <nav id="navv">
+            <button id="logo">N</button>
+            <button id="logo">A</button>
+            <button id="logo">S</button>
+            
+           <a href="web1.html" target="_blank"> <button class="but" id="dem" onmouseover="mosOn()" onmouseout="mosOut()" >Home</button></a>
+           <a href="#"> <button class="but" id="dem1" onmouseover="mosOn1()" onmouseout="mosOut1()" style="width: 100px;">contact us</button></a>
+            <a href="login.html"><button class="but" id="dem2" onmouseover="mosOn2()" onmouseout="mosOut2()" >login</button></a>
+            <a href="#"><button class="but" id="dem3" onmouseover="mosOn3()" onmouseout="mosOut3()" >help</button></a>
+            <input  id="input">
+            <label id="search">Search</label>
+            
+        </nav>
+
+    
+    
+    <section id="bod">
+        <Marquee   behavior="" Dirction=""> Here you will found some of informations about programming :languages,paths and frame work </marquee>
+    </section>
+    <div style="height:150px; border-style: none;padding-top: 0px;background-color: black;direction: ltr;">
+        <ul style="display:inline-flex;list-style: none;">
+            <li><img src="NASy.png" alt="Website Logo" width="160" height="125"></li>
+            <li><img src="backend-is.png" class="ani"></li>
+            <li><img src="front.png" class="ani1" ></li>
+            <li><img src="front1.jpg" class="ani2"></li>
+            <li><img src="what’s-the-best-programming-language-to-learn-first.png" class="ani3"></li>
+            <li><img src="what-computer-programming-jobs-offer-remote-work-jpg.jpeg" class="ani4"></li>
+        </ul>
+    </div>
+</section1>
+    <div class="lo" style="padding-bottom: 250px;border-style:none;border-color: brown; margin-top:20px;border-radius: 100px 0px 100px 0px;width:max-content;align-items: center;text-align: center;padding-top: 50px;background: rgba(5, 28, 236, 0.3);box-shadow: 10px 10px rgb(159, 71, 71);">
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b class="addr"><img src="account_profile_user_ecommerce_icon_224942.png" id="log"/></b><br/><br/>
+        <form action="welcome" method="get">
+           
+          &nbsp; &nbsp; &nbsp;   Email&nbsp; &nbsp;
+        
+          <input id="userName" class="for" type="email" name="email" placeholder=" Enter email" required /><label id="alertme"></label> <br/><br/>
+           
+          Password &nbsp;  &nbsp;
+         <input id="password" class="for" type="password" name="password" placeholder=" Enter password" required/> <label id="alertme1"></label><br/><br/>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+             <button onclick="Run()" type="submit" value="login" style="width: 70px;height:30px;color: rgb(24, 197, 116);background-color: darkgreen;border-radius:5px 5px 5px 5px ;"> Login </button><br/><br/>
+           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+             <a class="aa" href="">Forget password</a> &nbsp; &nbsp;
+            <a class="aa" href="creat.html">Create new account</a><br><br>
+           <a  href=""> <img src="meta_fb_communication_social_media_katana_facebook_icon_228415.png" style="height: 30;width: 30px;padding-left: 45px;"></a>
+           <a href=""><img src="talk_message_chat_communication_social_media_telegram_icon_228417.png" style="height: 30;width: 30px;"></a>
+           <a href=""> <img src="communication_social_media_twitter_icon_228391.png" style="height: 30;width: 30px;"></a>
+           <a href=""> <img src="communication_media_social_whatups_icon_228382.png" style="height: 30;width: 30px;"></a>
+        </form>
+        </div>
+
+        <footer style="color:rgb(213, 12, 12) ; padding-left:555px;height: 115px;padding-top: 70px;direction: ltr;">
+            <p>@N.A.S.com 2022</p>
+            
+    
+         </footer >
+    <script>
+       function Run(){
+            var userName=document.getElementById("userName").value;
+            var password=document.getElementById("password").value;
+                if(userName==""){
+                    alert("please enter username");
+                    document.getElementById("alertme").innerHTML="*";
+                }else if(password==""){
+                    alert("please enter password");
+                   document.getElementById("alertme1").innerHTML="*";
+                }else if(userName !=""&&password !=""){
+                    alert("login ok");
+                }
+        
+        }
+        function mosOn(){
+          // document.getElementById("dem").style.color="red";
+          // document.getElementById("dem").style.fontSize="large";
+          // document.getElementById("dem").style.backgroundColor="green";
+          document.getElementById("dem").style.borderLeftStyle="groove"
+          document.getElementById("dem").style.borderRightStyle="groove"
+          document.getElementById("dem").style.borderRadius="10px 10px 10px 10px"
+          document.getElementById("dem").style.backgroundColor="gray"
+           
+
+        }
+        function mosOn1(){
+          // document.getElementById("dem1").style.color="red";
+          // document.getElementById("dem1").style.fontSize="large";
+           document.getElementById("dem1").style.borderLeftStyle="groove"
+          document.getElementById("dem1").style.borderRightStyle="groove"
+          document.getElementById("dem1").style.borderRadius="10px 10px 10px 10px"
+          document.getElementById("dem1").style.backgroundColor="gray"
+           
+           }
+        function mosOn2(){
+           //document.getElementById("dem2").style.color="red";
+          // document.getElementById("dem2").style.fontSize="large";
+           document.getElementById("dem2").style.borderLeftStyle="groove"
+          document.getElementById("dem2").style.borderRightStyle="groove"
+          document.getElementById("dem2").style.borderRadius="10px 10px 10px 10px"
+          document.getElementById("dem2").style.backgroundColor="gray"
+           
+            }
+        function mosOn3(){
+
+           //document.getElementById("dem3").style.color="red";
+          // document.getElementById("dem3").style.fontSize="large";
+           document.getElementById("dem3").style.borderLeftStyle="groove"
+          document.getElementById("dem3").style.borderRightStyle="groove"
+          document.getElementById("dem3").style.borderRadius="10px 10px 10px 10px"
+          document.getElementById("dem3").style.backgroundColor="gray"
+           
+             }
+        function mosOut(){
+            document.getElementById("dem").style.color="blue";
+            document.getElementById("dem").style.fontSize="16px";
+            //document.getElementById("dem").style.backgroundColor="black";
+            document.getElementById("dem").style.borderStyle="none"
+          document.getElementById("dem").style.borderRadius="0px 0px 0px 0px"
+          document.getElementById("dem").style.backgroundColor="black"
+
+
+        }
+        function mosOut1(){
+            document.getElementById("dem1").style.color="blue";
+            document.getElementById("dem1").style.fontSize="15px";
+            document.getElementById("dem1").style.borderStyle="none"
+          document.getElementById("dem1").style.borderRadius="0px 0px 0px 0px"
+          document.getElementById("dem1").style.backgroundColor="black"
+
+        }
+        function mosOut2(){
+            document.getElementById("dem2").style.color="blue";
+            document.getElementById("dem2").style.fontSize="15px";
+            document.getElementById("dem2").style.borderStyle="none"
+          document.getElementById("dem2").style.borderRadius="0px 0px 0px 0px"
+          document.getElementById("dem2").style.backgroundColor="black"
+
+        }
+        function mosOut3(){
+            document.getElementById("dem3").style.color="blue";
+            document.getElementById("dem3").style.fontSize="15px";
+            document.getElementById("dem3").style.borderStyle="none"
+          document.getElementById("dem3").style.borderRadius="0px 0px 0px 0px"
+          document.getElementById("dem3").style.backgroundColor="black"
+
+        }
+    </script>
+
+</body>
+</html>
